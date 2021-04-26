@@ -26,9 +26,18 @@ public class ChaosAwakens
 	//Blocks class holding ALL the blocks
 	ModBlocks blocks = new ModBlocks();
 	
+	//Class holding ALL the loot tables
+	LootTables tables;
+	
+	CreativeTabDebug debugTab;
+	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
+		debugTab = new CreativeTabDebug("creative_debug_tab");
+		
+		tables = new LootTables();
+		
 		GameRegistry.registerWorldGenerator( new OreWorldGenerator(), 0);
 	}
 	

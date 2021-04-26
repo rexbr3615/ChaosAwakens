@@ -1,0 +1,13 @@
+{
+	"parent": "block/cube", 
+	"textures":
+	{
+		"down": "chaosawakens:block/druid_keyhole",
+		"up": "chaosawakens:block/druid_keyhole",
+		"north": "chaosawakens:block/druid_keyhole_front",
+		"east": "chaosawakens:block/druid_keyhole",
+		"south": "chaosawakens:block/druid_keyhole",
+		"west": "chaosawakens:block/druid_keyhole",
+		"particle": "chaosawakens:block/druid_keyhole"
+	}
+}

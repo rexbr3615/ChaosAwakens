@@ -10,11 +10,11 @@ import net.minecraftforge.common.util.EnumHelper;
  */
 public enum ToolMaterials
 {
-	EMERALD("emerald", 2, 2000, 10.0F, 9.0F, 10),
-	AMETHYST("amethyst", 8, 5000, 20.0F, 18.0F, 20),
-	RUBY("ruby", 12, 8000, 20.0F, 30.0F, 30),
-	TIGERS_EYE("tigers_eye", 5, 3500, 15.0F, 10.0F, 15),
-	OPTIMISED("optimised", 15, 13000, 75.0F, 8.0F, 45);
+	EMERALD("emerald", 4, 1600, 9.0F, 5.0F, 12),
+	AMETHYST("amethyst", 4, 1800, 10.0F, 6.0F, 14),
+	RUBY("ruby", 4, 2000, 11.0F, 7.0F, 16),
+	TIGERS_EYE("tigers_eye", 3, 1561, 8.0F, 4.0F, 10),
+	OPTIMISED("optimised", 4, 2200, 12.0F, 8.0F, 18);
 	
 	private String name;
 	private int harvestLevel;
@@ -33,8 +33,7 @@ public enum ToolMaterials
 	 * @param damage Material base damage
 	 * @param enchantability Material base enchantability
 	 */
-	private ToolMaterials(String name, int harvestLevel, int maxUses, float efficiency, float damage,
-			int enchantability) {
+	private ToolMaterials(String name, int harvestLevel, int maxUses, float efficiency, float damage, int enchantability) {
 		this.name = name;
 		this.harvestLevel = harvestLevel;
 		this.maxUses = maxUses;

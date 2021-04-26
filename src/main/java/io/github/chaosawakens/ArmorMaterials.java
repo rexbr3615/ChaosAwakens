@@ -12,10 +12,14 @@ import net.minecraftforge.common.util.EnumHelper;
  */
 public enum ArmorMaterials
 {
-	EMERALD("emerald", "emerald", 25, new int[] {5, 10, 10, 5}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 20.0F),
-	AMETHYST("amethyst", "amethyst", 25, new int[] {10, 20, 20, 10}, 50, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 20.0F),
-	RUBY("ruby", "ruby", 50, new int[] {15, 25, 25, 15}, 60, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 40.0F),
-	TIGERS_EYE("ruby", "ruby", 35, new int[] {10, 15, 15, 10}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 25.0F);
+	EMERALD("emerald", "emerald", 25, new int[] {5, 10, 10, 5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 2.0F),
+	AMETHYST("amethyst", "amethyst", 30, new int[] {10, 20, 20, 10}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 3.0F),
+	RUBY("ruby", "ruby", 35, new int[] {15, 25, 25, 15}, 17, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 4.0F),
+	TIGERS_EYE("tigers_eye", "tigers_eye", 20, new int[] {10, 15, 15, 10}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 2.0F),
+	EXPERIENCE("experience", "experience", 25, new int[] {5, 10, 10, 5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 2.0F),
+	ULTIMATE("ultimate", "ultimate", 30, new int[] {10, 20, 20, 10}, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 3.0F),
+	ROYAL_GUARDIAN("royal_guardian", "royal_guardian", 35, new int[] {15, 25, 25, 15}, 17, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 4.0F),
+	QUEEN_SCALE("queen_scale", "queen_scale", 20, new int[] {10, 15, 15, 10}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND , 2.0F);
 	
 	private String name;
 	private String textureName;

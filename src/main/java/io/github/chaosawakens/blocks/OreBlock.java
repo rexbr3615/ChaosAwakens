@@ -7,6 +7,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.state.pattern.BlockMatcher;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
 import net.minecraft.world.DimensionType;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 
@@ -34,9 +35,9 @@ public class OreBlock extends GenericBlock
 	 * @param tries Number of generation attempts
 	 * @param blockReplaced Block that will be replaced by ore
 	 */
-	public OreBlock(String name, Material material, float hardness, float resistance, DimensionType dimensionType, int minimumY, int maximumY, int size, int tries, Predicate<IBlockState> blockReplaced)
+	public OreBlock(String name, Material material, float hardness, float resistance, DimensionType dimensionType, int minimumY, int maximumY, int size, int tries, Predicate<IBlockState> blockReplaced, Item drop)
 	{
-		super(name, material, hardness, resistance);
+		super(name, material, hardness, resistance, drop);
 		
 		this.dimension = dimensionType;
 		this.minimumY = minimumY;
@@ -63,7 +64,7 @@ public class OreBlock extends GenericBlock
 	 */
 	public OreBlock(String name, Material material, float hardsistance, DimensionType dimensionType, int minimumY, int maximumY, int size, int tries, Predicate<IBlockState> blockReplaced)
 	{
-		this(name, material, hardsistance, hardsistance, dimensionType, minimumY, maximumY, size, tries, blockReplaced);
+		this(name, material, hardsistance, hardsistance, dimensionType, minimumY, maximumY, size, tries, blockReplaced, null);
 	}
 	
 	/**
@@ -80,7 +81,23 @@ public class OreBlock extends GenericBlock
 	 */
 	public OreBlock(String name, Material material, float hardness, float resistance, DimensionType dimensionType, int minimumY, int maximumY, int size, int tries)
 	{
-		this(name, material, hardness, resistance, dimensionType, minimumY, maximumY, size, tries, BlockMatcher.forBlock(Blocks.STONE));
+		this(name, material, hardness, resistance, dimensionType, minimumY, maximumY, size, tries, BlockMatcher.forBlock(Blocks.STONE), null);
+	}
+	
+	/**
+	 * 
+	 * @param name Unlocalized and registry names
+	 * @param material Block material
+	 * @param hardsistance Block resistance+hardness
+	 * @param dimensionType Dimension where the ore will be generated
+	 * @param minimumY Minimum Y level for ore generation
+	 * @param maximumY Maximum Y level for ore generation
+	 * @param size Size of the clumps
+	 * @param tries Number of generation attempts
+	 */
+	public OreBlock(String name, Material material, float hardsistance, DimensionType dimensionType, int minimumY, int maximumY, int size, int tries, Item drop)
+	{
+		this(name, material, hardsistance, hardsistance, dimensionType, minimumY, maximumY, size, tries, BlockMatcher.forBlock(Blocks.STONE), drop);
 	}
 	
 	/**
@@ -98,7 +115,7 @@ public class OreBlock extends GenericBlock
 	{
 		this(name, material, hardsistance, hardsistance, dimensionType, minimumY, maximumY, size, tries);
 	}
-	
+
 	public DimensionType getDimension()
 	{
 		return dimension;

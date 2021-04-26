@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_all", 
+	"textures":
+	{
+		"all": "chaosawakens:block/dried_ruby_beetle"
+	}
+}
