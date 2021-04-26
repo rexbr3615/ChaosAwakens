@@ -127,7 +127,7 @@ public class ModItems
 	//Queen set
 	public static final ItemArmor QUEEN_SCALE_HELMET = new GenericArmor("queen_scale_helmet", ArmorMaterials.RUBY.getArmorMaterial(), 1, EntityEquipmentSlot.HEAD);
 	public static final ItemArmor QUEEN_SCALE_CHESTPLATE = new GenericArmor("queen_scale_leggings", ArmorMaterials.RUBY.getArmorMaterial(), 1, EntityEquipmentSlot.CHEST);
-	public static final ItemArmor QUEEN_SCALE_LEGGINGS = new GenericArmor("queen_scale_leggings", ArmorMaterials.RUBY.getArmorMaterial(), 2, EntityEquipmentSlot.LEGS);
+	//public static final ItemArmor QUEEN_SCALE_LEGGINGS = new GenericArmor("queen_scale_leggings", ArmorMaterials.RUBY.getArmorMaterial(), 2, EntityEquipmentSlot.LEGS);
 	public static final ItemArmor QUEEN_SCALE_BOOTS = new GenericArmor("queen_scale_boots", ArmorMaterials.RUBY.getArmorMaterial(), 1, EntityEquipmentSlot.FEET);
 	
 	public ModItems() {}
