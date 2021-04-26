@@ -1,0 +1,62 @@
+//Blocks
+tile.amethyst_block.name=Bloc d'Améthyste
+
+//Items
+item.amethyst.name=Améthyste
+item.ruby.name=Rubis
+item.titanium.name=Titane
+item.titanium_nugget.name=Pépite de Titane
+item.uranium.name=Uranium
+item.uranium_nugget.name=Pépite d'Uranium
+
+//Emerald tools
+item.emerald_sword.name=Épée en Émeraude
+item.emerald_pickaxe.name=Pioche en Émeraude
+item.emerald_shovel.name=Pelle en Émeraude
+item.emerald_hoe.name=Houe en Émeraude
+item.emerald_axe.name=Hache en Émeraude
+
+//Amethyst tools
+item.amethyst_sword.name=Épée en Améthyste
+item.amethyst_pickaxe.name=Pioche en Améthyste
+item.amethyst_shovel.name=Pelle en Améthyste
+item.amethyst_hoe.name=Houe en Améthyste
+item.amethyst_hoe.name=Hache en Améthyste
+
+//Tiger's Eye tools
+item.tigers_eye_sword.name=Épée en Œil-de-tigre
+item.tigers_eye_pickaxe.name=Pioche en Œil-de-tigre
+item.tigers_eye_shovel.name=Pelle en Œil-de-tigre
+item.tigers_eye_hoe.name=Houe en Œil-de-tigre
+item.tigers_eye_axe.name=Hache en Œil-de-tigre
+
+//Ruby tools
+item.ruby_sword.name=Épée en Rubis
+item.ruby_pickaxe.name=Pioche en Rubis
+item.ruby_shovel.name=Pelle en Rubis
+item.ruby_hoe.name=Houe en Rubis
+item.ruby_axe.name=Hache en Rubis
+
+//Emerald set
+item.emerald_helmet.name=Casque en Émeraude
+item.emerald_chestplate.name=Plastron en Émeraude
+item.emerald_leggings.name=Jambières en Émeraude
+item.emerald_boots.name=Bottes en Émeraude
+
+//Amethyst set
+item.amethyst_helmet.name=Casque en Améthyste
+item.amethyst_chestplate.name=Plastron en Améthyste
+item.amethyst_leggings.name=Jambières en Améthyste
+item.amethyst_boots.name=Bottes en Améthyste
+
+//Tigers Eye set
+item.tigers_eye_helmet.name=Casque en Œil-de-tigre
+item.tigers_eye_chestplate.name=Plastron en Œil-de-tigre
+item.tigers_eye_leggings.name=Jambières en Œil-de-tigre
+item.tigers_eye_boots.name=Bottes en en Œil-de-tigre
+
+//Ruby set
+item.ruby_helmet.name=Casque en Rubis
+item.ruby_chestplate.name=Plastron en Rubis
+item.ruby_leggings.name=Jambières en Rubis
+item.ruby_boots.name=Bottes en Rubis
