@@ -14,7 +14,15 @@ public enum ToolMaterials
 	AMETHYST("amethyst", 4, 1800, 10.0F, 6.0F, 14),
 	RUBY("ruby", 4, 2000, 11.0F, 7.0F, 16),
 	TIGERS_EYE("tigers_eye", 3, 1561, 8.0F, 4.0F, 10),
-	OPTIMISED("optimised", 4, 2200, 12.0F, 8.0F, 18);
+	OPTIMISED("optimised", 4, 2200, 12.0F, 8.0F, 18),
+	EXPERIENCE("experience", 4, 1600, 9.0F, 5.0F, 12), //TODO Change those values and those below
+	ULTIMATE("ultimate", 4, 1800, 10.0F, 6.0F, 14),
+	FAIRY("fairy", 4, 2000, 11.0F, 7.0F, 16),
+	NIGHTMARE("nightmare", 3, 1561, 8.0F, 4.0F, 10),
+	POISON("poison", 4, 2200, 12.0F, 8.0F, 18),
+	QUEEN_SCALE("queen_scale", 4, 1600, 9.0F, 5.0F, 12),
+	RAT("rat", 4, 1800, 10.0F, 6.0F, 14),
+	ROYAL_GUARDIAN("royal_guardian", 4, 2000, 11.0F, 7.0F, 16);
 	
 	private String name;
 	private int harvestLevel;
