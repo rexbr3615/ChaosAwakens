@@ -20,9 +20,12 @@ public enum ToolMaterials
 	FAIRY("fairy", 4, 2000, 11.0F, 7.0F, 16),
 	NIGHTMARE("nightmare", 3, 1561, 8.0F, 4.0F, 10),
 	POISON("poison", 4, 2200, 12.0F, 8.0F, 18),
-	QUEEN_SCALE("queen_scale", 4, 1600, 9.0F, 5.0F, 12),
+	BIG_HAMMER("queen_scale", 4, 2200, 12.0F, 8.0F, 12),
+	BATTLE_AXE("queen_scale", 4, 2200, 12.0F, 8.0F, 12),
+	QUEEN_SCALE("queen_scale", 4, 20000, 50.0F, 135.0F, 12),
 	RAT("rat", 4, 1800, 10.0F, 6.0F, 14),
-	ROYAL_GUARDIAN("royal_guardian", 4, 2000, 11.0F, 7.0F, 16);
+	BIG_BERTHA("big_bertha", 10, 15000, 35.0F, 86.0F, 16),
+	ROYAL_GUARDIAN("royal_guardian", 10, 20000, 50.0F, 146.0F, 16);
 	
 	private String name;
 	private int harvestLevel;

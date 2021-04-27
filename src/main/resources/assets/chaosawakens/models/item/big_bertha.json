@@ -1,0 +1,40 @@
+{
+	"parent": "item/handheld", 
+	"textures":
+	{
+		"layer0": "chaosawakens:item/big_bertha"
+	},
+	"display":
+	{
+		"ground":
+		{
+			"scale": [1.0, 1.0, 1.0],
+			"translation": [0, 6, 0],
+			"rotation": [0, 0, 0]
+		},
+		"firstperson_righthand":
+		{
+			"scale": [1.25, 1.25, 1.0],
+			"translation": [3, 4, 0],
+			"rotation": [0, 95, 65]
+		},
+		"firstperson_lefthand":
+		{
+			"scale": [1.25, 1.25, 1.0],
+			"translation": [3, 4, 0],
+			"rotation": [0, -85, -65]
+		},
+		"thirdperson_righthand":
+		{
+			"scale": [1.5, 1.5, 0.75],
+			"translation": [0, 8, 1],
+			"rotation": [0, 90, 35]
+		},
+		"thirdperson_lefthand":
+		{
+			"scale": [1.5, 1.5, 0.75],
+			"translation": [0, 8, 1],
+			"rotation": [0, -90, -35]
+		}
+	}
+}

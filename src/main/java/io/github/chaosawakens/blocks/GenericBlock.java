@@ -11,6 +11,8 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 
 /**
  * Generic block class aka any block with no special behavior

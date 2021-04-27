@@ -14,6 +14,7 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemEgg;
+import net.minecraft.item.ItemShield;
 import net.minecraft.util.datafix.fixes.SpawnEggNames;
 
 /**
@@ -36,8 +37,11 @@ public class ModItems
 	public static final Item TITANIUM_NUGGET = new GenericItem("titanium_nugget");
 	public static final Item URANIUM_INGOT = new GenericItem("uranium_ingot");
 	public static final Item URANIUM_NUGGET = new GenericItem("uranium_nugget");
-	public static final Item ALUMINUM = new GenericItem("aluminum");
+	public static final Item ALUMINUM = new GenericItem("aluminum_ingot");
 	public static final Item DRUID_KEY = new GenericItem("druid_key", 1);
+	public static final Item BIG_BERTHA_BLADE = new GenericItem("big_bertha_blade", 1);
+	public static final Item BIG_BERTHA_GUARD = new GenericItem("big_bertha_guard", 1);
+	public static final Item BIG_BERTHA_HANDLE = new GenericItem("big_bertha_handle", 1);
 	
 	//public static final Item Oil = new Oil("Oil");
 	//public static final Item Salt = new Salt("Salt"); //Ant Functionality Delayed
@@ -51,14 +55,17 @@ public class ModItems
 	 */
 	
 	//Misc weapons
-	public static final Item FAIRY_SWORD = new GenericSword("fairy_sword", ToolMaterials.FAIRY.getToolMaterial()); //TODO Json models
-	public static final Item NIGHTMARE_SWORD = new GenericSword("nightmare_sword", ToolMaterials.NIGHTMARE.getToolMaterial()); //TODO Json models
-	public static final Item POISON_SWORD = new GenericSword("poison_sword", ToolMaterials.POISON.getToolMaterial()); //TODO Json models
-	public static final Item QUEEN_SCALE_BATTLE_AXE = new GenericShovel("queen_scale_battle_axe", ToolMaterials.QUEEN_SCALE.getToolMaterial()); //TODO Json models
-	public static final Item RAT_SWORD = new GenericSword("rat_sword", ToolMaterials.RAT.getToolMaterial()); //TODO Json models
+	public static final Item FAIRY_SWORD = new GenericSword("fairy_sword", ToolMaterials.FAIRY.getToolMaterial());
+	public static final Item NIGHTMARE_SWORD = new GenericSword("nightmare_sword", ToolMaterials.NIGHTMARE.getToolMaterial());
+	public static final Item POISON_SWORD = new GenericSword("poison_sword", ToolMaterials.POISON.getToolMaterial());
+	public static final Item BIG_HAMMER = new GenericAxe("big_hammer", ToolMaterials.BIG_HAMMER.getToolMaterial());
+	public static final Item BATTLE_AXE = new GenericAxe("battle_axe", ToolMaterials.BATTLE_AXE.getToolMaterial());
+	public static final Item QUEEN_SCALE_BATTLE_AXE = new GenericAxe("queen_battle_axe", ToolMaterials.QUEEN_SCALE.getToolMaterial());
+	public static final Item RAT_SWORD = new GenericSword("rat_sword", ToolMaterials.RAT.getToolMaterial());
 	//public static final Item RAY_GUN = new GenericPickaxe("ray_gun", ToolMaterials.RAT.getToolMaterial());
-	public static final Item ROYAL_GUARDIAN_SWORD = new GenericSword("royal_guardian_sword", ToolMaterials.ROYAL_GUARDIAN.getToolMaterial()); //TODO Json models
+	public static final Item BIG_BERTHA = new GenericSword("big_bertha", ToolMaterials.BIG_BERTHA.getToolMaterial());
 	//public static final Item THUNDER_STAFF = new GenericSword("thunder_staff", ToolMaterials.EMERALD.getToolMaterial());
+	public static final Item ROYAL_GUARDIAN_SWORD = new GenericSword("royal_guardian_sword", ToolMaterials.ROYAL_GUARDIAN.getToolMaterial());
 	
 	//Emerald stuff
 	public static final Item EMERALD_SWORD = new GenericSword("emerald_sword", ToolMaterials.EMERALD.getToolMaterial());
@@ -89,22 +96,22 @@ public class ModItems
 	public static final Item RUBY_HOE = new GenericHoe("ruby_hoe", ToolMaterials.RUBY.getToolMaterial());
 	
 	//Experience stuff
-	public static final Item EXPERIENCE_SWORD = new GenericSword("experience_sword", ToolMaterials.RUBY.getToolMaterial()); //TODO Json models
-	public static final Item EXPERIENCE_PICKAXE = new GenericPickaxe("experience_pickaxe", ToolMaterials.RUBY.getToolMaterial()); //TODO Json models
-	public static final Item EXPERIENCE_AXE = new GenericAxe("experience_axe", ToolMaterials.RUBY.getToolMaterial()); //TODO Json models
-	public static final Item EXPERIENCE_SHOVEL = new GenericShovel("experience_shovel", ToolMaterials.RUBY.getToolMaterial()); //TODO Json models
-	public static final Item EXPERIENCE_HOE = new GenericHoe("experience_hoe", ToolMaterials.RUBY.getToolMaterial()); //TODO Json models
+	public static final Item EXPERIENCE_SWORD = new GenericSword("experience_sword", ToolMaterials.RUBY.getToolMaterial());
+	public static final Item EXPERIENCE_PICKAXE = new GenericPickaxe("experience_pickaxe", ToolMaterials.RUBY.getToolMaterial());
+	public static final Item EXPERIENCE_AXE = new GenericAxe("experience_axe", ToolMaterials.RUBY.getToolMaterial());
+	public static final Item EXPERIENCE_SHOVEL = new GenericShovel("experience_shovel", ToolMaterials.RUBY.getToolMaterial());
+	public static final Item EXPERIENCE_HOE = new GenericHoe("experience_hoe", ToolMaterials.RUBY.getToolMaterial());
 	
 	//Optimised stuff
 	public static final Item OPTIMISED_MINERS_PICKAXE = new GenericPickaxe("optimised_miners_pickaxe", ToolMaterials.OPTIMISED.getToolMaterial());
 	public static final Item OPTIMISED_TRENCH_DIGGERS_SHOVEL = new GenericShovel("optimised_trench_diggers_shovel", ToolMaterials.OPTIMISED.getToolMaterial());
 	
 	//Ultimate stuff
-	public static final Item ULTIMATE_SWORD = new GenericSword("ultimate_sword", ToolMaterials.RUBY.getToolMaterial()); //TODO Json models
-	public static final Item ULTIMATE_PICKAXE = new GenericPickaxe("ultimate_pickaxe", ToolMaterials.RUBY.getToolMaterial()); //TODO Json models
-	public static final Item ULTIMATE_AXE = new GenericAxe("ultimate_axe", ToolMaterials.RUBY.getToolMaterial()); //TODO Json models
-	public static final Item ULTIMATE_SHOVEL = new GenericShovel("ultimate_shovel", ToolMaterials.RUBY.getToolMaterial()); //TODO Json models
-	public static final Item ULTIMATE_HOE = new GenericHoe("ultimate_hoe", ToolMaterials.RUBY.getToolMaterial()); //TODO Json models
+	public static final Item ULTIMATE_SWORD = new GenericSword("ultimate_sword", ToolMaterials.RUBY.getToolMaterial());
+	public static final Item ULTIMATE_PICKAXE = new GenericPickaxe("ultimate_pickaxe", ToolMaterials.RUBY.getToolMaterial());
+	public static final Item ULTIMATE_AXE = new GenericAxe("ultimate_axe", ToolMaterials.RUBY.getToolMaterial());
+	public static final Item ULTIMATE_SHOVEL = new GenericShovel("ultimate_shovel", ToolMaterials.RUBY.getToolMaterial());
+	public static final Item ULTIMATE_HOE = new GenericHoe("ultimate_hoe", ToolMaterials.RUBY.getToolMaterial());
 	
 	/*
 	 * Armors

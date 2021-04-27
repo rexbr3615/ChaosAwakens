@@ -2,6 +2,6 @@
 	"parent": "item/generated", 
 	"textures":
 	{
-		"layer0": "chaosawakens:item/aluminum"
+		"layer0": "chaosawakens:item/uranium_ingot"
 	}
 }

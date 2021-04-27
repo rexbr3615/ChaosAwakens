@@ -3,12 +3,12 @@ package io.github.chaosawakens;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.github.chaosawakens.blocks.FacingBlock;
 import io.github.chaosawakens.blocks.GenericBlock;
 import io.github.chaosawakens.blocks.OreBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.world.DimensionType;
 
 /**
@@ -34,7 +34,7 @@ public class ModBlocks
 	public static final Block URANIUM_BLOCK = new GenericBlock("uranium_block", Material.IRON);
 	public static final Block ALUMINIUM_BLOCK = new GenericBlock("aluminum_block", Material.IRON);
 	
-	public static final Block DRUID_KEYHOLE = new GenericBlock("druid_keyhole", Material.WOOD, SoundType.WOOD);
+	public static final Block DRUID_KEYHOLE = new FacingBlock("druid_keyhole", Material.WOOD, SoundType.WOOD);
 	
 	public static final Block OIL_ORE = new OreBlock("oil_ore", Material.IRON, 2, DimensionType.OVERWORLD, 20, 60, 7, 6);
 	public static final Block RUBY_ORE = new OreBlock("ruby_ore", Material.IRON, 3, DimensionType.OVERWORLD, 1, 30, 5, 4, ModItems.RUBY);
@@ -45,8 +45,5 @@ public class ModBlocks
 	public static final Block DRIED_SWARM = new OreBlock("dried_swarm", Material.IRON, 2, DimensionType.OVERWORLD, 15, 60, 4, 6);
 	public static final Block DRIED_TREE_MONSTER = new OreBlock("dried_tree_monster", Material.IRON, 2, DimensionType.OVERWORLD, 15, 60, 4, 6);
 	
-	public ModBlocks()
-	{
-		
-	}
+	public ModBlocks() {}
 }

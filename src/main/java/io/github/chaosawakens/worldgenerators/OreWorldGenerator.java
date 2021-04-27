@@ -9,7 +9,6 @@ import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraftforge.fml.common.IWorldGenerator;
-//import io.github.chaosawakens.Blocks;
 
 
 public class OreWorldGenerator implements IWorldGenerator
@@ -23,6 +22,6 @@ public class OreWorldGenerator implements IWorldGenerator
 	{
 		for(OreBlock ore : ModBlocks.ORES)
 			if(world.provider.getDimensionType().equals(ore.getDimension()))
-				Utils.generateOre(ore, world, random, chunkX, chunkZ);
+				Utils.generateOre(ore, world, random, chunkX << 4, chunkZ << 4);
 	}
 }
