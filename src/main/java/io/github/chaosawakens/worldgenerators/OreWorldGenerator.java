@@ -2,9 +2,9 @@ package io.github.chaosawakens.worldgenerators;
 
 import java.util.Random;
 
-import io.github.chaosawakens.ModBlocks;
-import io.github.chaosawakens.Utils;
 import io.github.chaosawakens.blocks.OreBlock;
+import io.github.chaosawakens.registry.ModBlocks;
+import io.github.chaosawakens.util.Utils;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;

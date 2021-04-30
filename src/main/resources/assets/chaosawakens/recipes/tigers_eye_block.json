@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+       "###",
+       "###",
+       "###"
+    ],
+    "key": {
+        "#": {
+            "item": "chaosawakens:tigers_eye"
+        }
+    },
+    "result": {
+        "item": "chaosawakens:tigers_eye_block",
+        "count": 1
+    }
+}
+ 

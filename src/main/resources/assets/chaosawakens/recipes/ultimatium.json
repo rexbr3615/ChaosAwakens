@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "D#D",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "chaosawakens:uranium_ingot"
+        },
+        
+        "D": {
+            "item": "chaosawakens:titanium_ingot"
+        }
+    },
+    "result": {
+        "item": "chaosawakens:ultimatium",
+        "count": 1
+    }
+}

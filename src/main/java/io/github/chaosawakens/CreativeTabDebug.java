@@ -1,5 +1,6 @@
 package io.github.chaosawakens;
 
+import io.github.chaosawakens.registry.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

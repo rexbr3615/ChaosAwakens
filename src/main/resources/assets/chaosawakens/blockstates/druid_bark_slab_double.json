@@ -1,0 +1,17 @@
+{
+	"variants":
+	{
+		"normal":
+		{ 
+			"model": "chaosawakens:druid_bark_slab_double"
+		},
+		"half=bottom":
+		{ 
+			"model": "chaosawakens:druid_bark_slab_double"
+		},
+		"half=top":
+		{ 
+			"model": "chaosawakens:druid_bark_slab_double"
+		}
+	}
+}

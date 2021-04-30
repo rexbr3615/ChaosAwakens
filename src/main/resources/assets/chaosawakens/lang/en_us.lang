@@ -1,13 +1,96 @@
 //Blocks
 tile.amethyst_block.name=Amethyst Block
+tile.ruby_ore.name=Ruby Ore
+tile.oil_ore.name=Oil Ore
+tile.amethyst_ore.name=Amethyst Ore
+tile.druid_keyhole.name=Druid Keyhole
+tile.aluminum_block.name=Aluminum Block
+tile.uranium_block.name=Uranium Block
+tile.titanium_block.name=Titanium Block
+tile.tigers_eye_block.name=Tiger's Eye Block
+tile.ruby_block.name=Ruby Block
+tile.dried_emerald_alligator.name=Dried Emerald Alligator
+tile.dried_ruby_beetle.name=Dried Ruby Beetle
+tile.dried_swarm.name=Dried Swarm
+tile.dried_tree_monster.name=Dried Tree Monster
+tile.uranium_ore.name=Uranium Ore
+tile.titanium_ore.name=Titanium Ore
+tile.ultimatium_block.name=Ultimatium Block
+tile.tigers_eye_ore.name=Tiger's Eye Ore
+tile.druid_bark.name=Druid bark
+tile.druid_gate.name=Druid Gate
+tile.druid_bark_slab.name=Druid Bark Slab
+
+//Creative Tabs Names
+itemGroup.chaos_awakens_blocks_creative_tab=Chaos Awakens Blocks
+itemGroup.chaos_awakens_items_creative_tab=Chaos Awakens Items
+itemGroup.chaos_awakens_equipment_creative_tab=Chaos Awakens Equipment
+
+//Special food
+item.op_diamond_apple.name=Diamond Apple
+item.op_emerald_apple.name=Emerald Apple
+item.dough.name=Dough
 
 //Items
 item.amethyst.name=Amethyst
 item.ruby.name=Ruby
-item.titanium.name=Titanium
-item.titanium_nugget.name=Titanium nugget
-item.uranium.name=Uranium
-item.uranium_nugget.name=Uranium nugget
+item.titanium_ingot.name=Titanium Ingot
+item.titanium_nugget.name=Titanium Nugget
+item.uranium_ingot.name=Uranium Ingot
+item.uranium_nugget.name=Uranium Nugget
+item.aluminum_ingot.name=Aluminum Ingot
+item.druid_key.name=Druid Key
+item.tigers_eye.name=Tiger's Eye
+item.obsidian_nugget.name=Obsidian Nugget
+item.amethyst_nugget.name=Amethyst Nugget
+item.ruby_nugget.name=Ruby Nugget
+item.tigers_eye_nugget.name=Tiger's Eye Nugget
+item.aluminum_nugget.name=Aluminum Nugget
+item.emerald_nugget.name=Emerald Nugget
+item.diamond_nugget.name=Diamond Nugget
+item.corrupt.name=C0RR4P1T
+item.big_bertha_blade.name=Big Bertha's Blade
+item.big_bertha_guard.name=Big Bertha's Guard
+item.big_bertha_handle.name=Big Bertha's Handle
+item.ultimatium.name=Ultimatium
+item.blt.name=BLT Sandwich
+item.cooked_corndog.name=Cooked Corndog
+item.raw_corndog.name=Raw Corndog
+item.cooked_bacon.name=Cooked Bacon
+item.raw_bacon.name=Raw Bacon
+item.corn.name=Corn
+item.cheese.name=Cheese
+item.lettuce.name=Lettuce
+item.tomato.name=Tomato
+
+
+//Misc. stuff
+item.fairy_sword.name=Fairy Sword
+item.nightmare_sword.name=Nightmare Sword
+item.poison_sword.name=Poison Sword
+item.big_hammer.name=Big Hammer
+item.battle_axe.name=Battle Axe
+item.queen_battle_axe.name=Queen's Battle Axe
+item.rat_sword.name=Rat Sword
+item.big_bertha.name=Big Bertha
+
+//Royal Guardian tools
+item.royal_guardian_sword.name=Royal Guardian Sword
+item.royal_guardian_pickaxe.name=Royal Guardian Pickaxe
+item.royal_guardian_shovel.name=Royal Guardian Shovel
+item.royal_guardian_hoe.name=Royal Guardian Hoe
+item.royal_guardian_axe.name=Royal Guardian Axe
+
+//Optimised tools
+item.optimised_miners_pickaxe.name=Optimised Miner's Pickaxe
+item.optimised_trench_diggers_shovel.name=Optimised Trench Digger's Shovel
+
+//Ultimate tools
+item.ultimate_sword.name=Ultimate Sword
+item.ultimate_pickaxe.name=Ultimate Pickaxe
+item.ultimate_shovel.name=Ultimate Shovel
+item.ultimate_hoe.name=Ultimate Hoe
+item.ultimate_axe.name=Ultimate Axe
 
 //Emerald tools
 item.emerald_sword.name=Emerald Sword
@@ -16,12 +99,19 @@ item.emerald_shovel.name=Emerald Shovel
 item.emerald_hoe.name=Emerald Hoe
 item.emerald_axe.name=Emerald Axe
 
+//Experience tools
+item.experience_sword.name=Experience Sword
+item.experience_pickaxe.name=Experience Pickaxe
+item.experience_shovel.name=Experience Shovel
+item.experience_hoe.name=Experience Hoe
+item.experience_axe.name=Experience Axe
+
 //Amethyst tools
 item.amethyst_sword.name=Amethyst Sword
 item.amethyst_pickaxe.name=Amethyst Pickaxe
 item.amethyst_shovel.name=Amethyst Shovel
 item.amethyst_hoe.name=Amethyst Hoe
-item.amethyst_hoe.name=Amethyst Axe
+item.amethyst_axe.name=Amethyst Axe
 
 //Tiger's Eye tools
 item.tigers_eye_sword.name=Tiger's Eye Sword
@@ -60,3 +150,33 @@ item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate
 item.ruby_leggings.name=Ruby Leggings
 item.ruby_boots.name=Ruby Boots
+
+//Ultimate set
+item.ultimate_helmet.name=Ultimate Helmet
+item.ultimate_chestplate.name=Ultimate Chestplate
+item.ultimate_leggings.name=Ultimate Leggings
+item.ultimate_boots.name=Ultimate Boots
+
+//Royal Guardian set
+item.royal_guardian_helmet.name=Royal Guardian Helmet
+item.royal_guardian_chestplate.name=Royal Guardian Chestplate
+item.royal_guardian_leggings.name=Royal Guardian Leggings
+item.royal_guardian_boots.name=Royal Guardian Boots
+
+//Queen Scale set
+item.queen_scale_helmet.name=Queen Scale Helmet
+item.queen_scale_chestplate.name=Queen Scale Chestplate
+item.queen_scale_leggings.name=Queen Scale Leggings
+item.queen_scale_boots.name=Queen Scale Boots
+
+//Experience Set
+item.experience_helmet.name=Experience Helmet
+item.experience_chestplate.name=Experience Chestplate
+item.experience_leggings.name=Experience Leggings
+item.experience_boots.name=Experience Boots
+
+//Lapis set
+item.lapis_helmet.name=Lapis Helmet
+item.lapis_chestplate.name=Lapis Chestplate
+item.lapis_leggings.name=Lapis Leggings
+item.lapis_boots.name=Lapis Boots

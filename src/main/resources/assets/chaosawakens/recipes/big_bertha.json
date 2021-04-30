@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+       "  E",
+       " G ",
+       "F  "
+    ],
+    "key": {
+        "E": {
+            "item": "chaosawakens:big_bertha_blade"
+        },
+        "F": {
+            "item": "chaosawakens:big_bertha_handle"
+        },
+        "G": {
+            "item": "chaosawakens:big_bertha_guard"
+        }        
+    },
+    "result": {
+        "item": "chaosawakens:big_bertha",
+        "count": 1
+    }
+}

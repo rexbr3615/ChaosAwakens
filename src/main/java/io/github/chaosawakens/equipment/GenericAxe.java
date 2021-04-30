@@ -1,6 +1,7 @@
 package io.github.chaosawakens.equipment;
 
-import io.github.chaosawakens.ModItems;
+import io.github.chaosawakens.registry.ModCreativeTabs;
+import io.github.chaosawakens.registry.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemAxe;
 
@@ -23,7 +24,7 @@ public class GenericAxe extends ItemAxe
 		super(material, damage, speed);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.TOOLS);
+		setCreativeTab(ModCreativeTabs.EQUIPMENT);
 		
 		ModItems.ITEMS.add(this);
 	}

@@ -1,0 +1,182 @@
+//Blocks
+tile.amethyst_block.name=Block de ametista
+tile.ruby_ore.name=Minério de rubi
+tile.oil_ore.name=Minério oleoso
+tile.amethyst_ore.name=Minério de ametista
+tile.druid_keyhole.name=Fechadura druida
+tile.aluminum_block.name=Bloco de alumínio
+tile.uranium_block.name=Bloco de urânio
+tile.titanium_block.name=Bloco de titânio
+tile.tigers_eye_block.name=Bloco de olho de tigre
+tile.ruby_block.name=Bloco de rubi
+tile.dried_emerald_alligator.name=Jacaré Esmeralda ressecado
+tile.dried_ruby_beetle.name=Besouro Rubi ressecado
+tile.dried_swarm.name=Enxame ressecado
+tile.dried_tree_monster.name= Monstro-Árvore ressecado
+tile.uranium_ore.name=Minério de urânio
+tile.titanium_ore.name=Minério de titânio
+tile.ultimatium_block.name=Bloco de ultimátio
+tile.tigers_eye_ore.name=Minério de olho de tigre
+tile.druid_bark.name=Casca druida
+tile.druid_gate.name=Portão druida
+tile.druid_bark_slab.name=Laje de casca druida
+
+//Creative Tabs Names
+itemGroup.chaos_awakens_blocks_creative_tab=Blocos de Chaos Awakens
+itemGroup.chaos_awakens_items_creative_tab=Items de Chaos Awakens
+itemGroup.chaos_awakens_equipment_creative_tab=Equipamento de Chaos Awakens
+
+//Special food
+item.op_diamond_apple.name=Maçã diamante
+item.op_emerald_apple.name=Maçã esmeralda
+item.dough.name=Massa
+
+//Items
+item.amethyst.name=Ametista
+item.ruby.name=Rubi
+item.titanium_ingot.name=Barra de titânio
+item.titanium_nugget.name=Pepita de titânio
+item.uranium_ingot.name=Barra de urânio
+item.uranium_nugget.name=Pepita de urânio
+item.aluminum_ingot.name=Barra de alumínio
+item.druid_key.name=Chave druida
+item.tigers_eye.name=Olho de tigre
+item.obsidian_nugget.name=Pepita de obsidiana
+item.amethyst_nugget.name=Pepita de Ametista
+item.ruby_nugget.name=Pepita de rubi
+item.tigers_eye_nugget.name=Pepita de olho de tigre
+item.aluminum_nugget.name=Pepita de alumínio
+item.emerald_nugget.name=Pepita de esmeralda
+item.diamond_nugget.name=Pepita de diamante
+item.corrupt.name=C0RR4P1T
+item.big_bertha_blade.name=Lâmina da Big Bertha
+item.big_bertha_guard.name=Guarda da Big Bertha
+item.big_bertha_handle.name=Punho da Big Bertha
+item.ultimatium.name=Ultimátio
+item.blt.name=Sanduba
+item.cooked_corndog.name=Crepe suiço assado
+item.raw_corndog.name=Crepe suiço cru
+item.cooked_bacon.name=Bacon assado
+item.raw_bacon.name=Bacon cru
+item.corn.name=Milho
+item.cheese.name=Queijo
+item.lettuce.name=Alface
+item.tomato.name=Tomate
+
+
+//Misc. stuff
+item.fairy_sword.name=Espada fada
+item.nightmare_sword.name=Espada pesadelo
+item.poison_sword.name=Espada venenosa
+item.big_hammer.name=Grande martelo
+item.battle_axe.name=Machado de guerra
+item.queen_battle_axe.name=Machado de guerra da rainha
+item.rat_sword.name=Espada rato
+item.big_bertha.name=Big Bertha
+
+//Royal Guardian tools
+item.royal_guardian_sword.name=Espada de guardião real
+item.royal_guardian_pickaxe.name=Picareta de guardião real
+item.royal_guardian_shovel.name=Pá de guardião real
+item.royal_guardian_hoe.name=Enxada de guardião real
+item.royal_guardian_axe.name=Machado de guardião real
+
+//Optimised tools
+item.optimised_miners_pickaxe.name=Picareta otimizada do minerador
+item.optimised_trench_diggers_shovel.name=Pá otimizada do cava-trincheira
+
+//Ultimate tools
+item.ultimate_sword.name=Espada suprema
+item.ultimate_pickaxe.name=Picareta suprema
+item.ultimate_shovel.name=Pá suprema
+item.ultimate_hoe.name=Enxada suprema
+item.ultimate_axe.name=Machado supremo
+
+//Emerald tools
+item.emerald_sword.name=Espada de esmeralda
+item.emerald_pickaxe.name=Picareta de esmeralda
+item.emerald_shovel.name=Pá de esmeralda
+item.emerald_hoe.name=Enxada de esmeralda
+item.emerald_axe.name=Machado de esmeralda
+
+//Experience tools
+item.experience_sword.name=Espada de experiência
+item.experience_pickaxe.name=Picareta de experiência
+item.experience_shovel.name=Pá de experiência
+item.experience_hoe.name=Enxada de experiência
+item.experience_axe.name=Machado de experiência
+
+//Amethyst tools
+item.amethyst_sword.name=Espada de ametista
+item.amethyst_pickaxe.name=Picareta de ametista
+item.amethyst_shovel.name=Pá de ametista
+item.amethyst_hoe.name=Enxada de ametista
+item.amethyst_axe.name=Machado de ametista
+
+//Tiger's Eye tools
+item.tigers_eye_sword.name=Espada de olho de tigre
+item.tigers_eye_pickaxe.name=Picareta de olho de tigre
+item.tigers_eye_shovel.name=Pá de olho de tigre
+item.tigers_eye_hoe.name=Enxada de olho de tigre
+item.tigers_eye_axe.name=Machado de olho de tigre
+
+//Ruby tools
+item.ruby_sword.name=Espada de rubi
+item.ruby_pickaxe.name=Picareta de rubi
+item.ruby_shovel.name=Pá de rubi
+item.ruby_hoe.name=Enxada de rubi
+item.ruby_axe.name=Machado de rubi
+
+//Emerald set
+item.emerald_helmet.name=Capacete de esmeralda
+item.emerald_chestplate.name=Peitoral de esmeralda
+item.emerald_leggings.name=Calças de esmeralda
+item.emerald_boots.name=Botas de esmeralda
+
+//Amethyst set
+item.amethyst_helmet.name=Capacete de ametista
+item.amethyst_chestplate.name=Peitoral de ametista
+item.amethyst_leggings.name=Calças de ametista
+item.amethyst_boots.name=Botas de ametista
+
+//Tigers Eye set
+item.tigers_eye_helmet.name=Capacete de olho de tigre
+item.tigers_eye_chestplate.name=Peitoral de olho de tigre
+item.tigers_eye_leggings.name=Calças de olho de tigre
+item.tigers_eye_boots.name=Botas de olho de tigre
+
+//Ruby set
+item.ruby_helmet.name=Capacete de rubi
+item.ruby_chestplate.name=Peitoral de rubi
+item.ruby_leggings.name=Calças de rubi
+item.ruby_boots.name=Botas de rubi
+
+//Ultimate set
+item.ultimate_helmet.name=Capacete supremo
+item.ultimate_chestplate.name=Peitoral supremo
+item.ultimate_leggings.name=Calças supremas
+item.ultimate_boots.name=Botas supremas
+
+//Royal Guardian set
+item.royal_guardian_helmet.name=Capacete de guardião real
+item.royal_guardian_chestplate.name=Peitoral de guardião real
+item.royal_guardian_leggings.name=Calças de guardião real
+item.royal_guardian_boots.name=Botas de guardião real
+
+//Queen Scale set
+item.queen_scale_helmet.name=Capacete de escama real
+item.queen_scale_chestplate.name=Peitoral de escama real
+item.queen_scale_leggings.name=Calças de escama real
+item.queen_scale_boots.name=Botas de escama real
+
+//Experience Set
+item.experience_helmet.name=Capacete de experiencia
+item.experience_chestplate.name=Peitoral de experiencia
+item.experience_leggings.name=Calças de experiencia
+item.experience_boots.name=Botas de experiencia
+
+//Lapis set
+item.lapis_helmet.name=Capacete de lápis-lazúli
+item.lapis_chestplate.name=Peitoral de lápis-lazúli
+item.lapis_leggings.name=Calças de lápis-lazúli
+item.lapis_boots.name=Botas de lápis-lazúli

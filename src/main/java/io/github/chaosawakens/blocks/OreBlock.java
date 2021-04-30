@@ -2,12 +2,8 @@ package io.github.chaosawakens.blocks;
 
 import com.google.common.base.Predicate;
 
-import io.github.chaosawakens.ModBlocks;
-import net.minecraft.block.material.Material;
+import io.github.chaosawakens.registry.ModBlocks;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.state.pattern.BlockMatcher;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.Item;
 import net.minecraft.world.DimensionType;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 
@@ -35,85 +31,19 @@ public class OreBlock extends GenericBlock
 	 * @param tries Number of generation attempts
 	 * @param blockReplaced Block that will be replaced by ore
 	 */
-	public OreBlock(String name, Material material, float hardness, float resistance, DimensionType dimensionType, int minimumY, int maximumY, int size, int tries, Predicate<IBlockState> blockReplaced, Item drop)
+	public OreBlock(String name, BlockSettings settings)
 	{
-		super(name, material, hardness, resistance, drop);
+		super(name, settings);
 		
-		this.dimension = dimensionType;
-		this.minimumY = minimumY;
-		this.maximumY = maximumY;
-		this.size = size;
-		this.tries = tries;
-		this.blockReplaced = blockReplaced;
-		this.worldGenMinable = new WorldGenMinable(this.getDefaultState(), tries, blockReplaced);
+		this.dimension = settings.getDimension();
+		this.minimumY = settings.getMinimumY();
+		this.maximumY = settings.getMaximumY();
+		this.size = settings.getSize();
+		this.tries = settings.getTries();
+		this.blockReplaced = settings.getBlockReplaced();
+		this.worldGenMinable = new WorldGenMinable(this.getDefaultState(), settings.getTries(), settings.getBlockReplaced());
 		
 		ModBlocks.ORES.add(this);
-	}
-	
-	/**
-	 * 
-	 * @param name Unlocalized and registry names
-	 * @param material Block material
-	 * @param hardsistance Block resistance+hardness
-	 * @param dimensionType Dimension where the ore will be generated
-	 * @param minimumY Minimum Y level for ore generation
-	 * @param maximumY Maximum Y level for ore generation
-	 * @param size Size of the clumps
-	 * @param tries Number of generation attempts
-	 * @param blockReplaced Block that will be replaced by ore
-	 */
-	public OreBlock(String name, Material material, float hardsistance, DimensionType dimensionType, int minimumY, int maximumY, int size, int tries, Predicate<IBlockState> blockReplaced)
-	{
-		this(name, material, hardsistance, hardsistance, dimensionType, minimumY, maximumY, size, tries, blockReplaced, null);
-	}
-	
-	/**
-	 * 
-	 * @param name Unlocalized and registry names
-	 * @param material Block material
-	 * @param hardness Block hardness
-	 * @param resistance Block resistance
-	 * @param dimensionType Dimension where the ore will be generated
-	 * @param minimumY Minimum Y level for ore generation
-	 * @param maximumY Maximum Y level for ore generation
-	 * @param size Size of the clumps
-	 * @param tries Number of generation attempts
-	 */
-	public OreBlock(String name, Material material, float hardness, float resistance, DimensionType dimensionType, int minimumY, int maximumY, int size, int tries)
-	{
-		this(name, material, hardness, resistance, dimensionType, minimumY, maximumY, size, tries, BlockMatcher.forBlock(Blocks.STONE), null);
-	}
-	
-	/**
-	 * 
-	 * @param name Unlocalized and registry names
-	 * @param material Block material
-	 * @param hardsistance Block resistance+hardness
-	 * @param dimensionType Dimension where the ore will be generated
-	 * @param minimumY Minimum Y level for ore generation
-	 * @param maximumY Maximum Y level for ore generation
-	 * @param size Size of the clumps
-	 * @param tries Number of generation attempts
-	 */
-	public OreBlock(String name, Material material, float hardsistance, DimensionType dimensionType, int minimumY, int maximumY, int size, int tries, Item drop)
-	{
-		this(name, material, hardsistance, hardsistance, dimensionType, minimumY, maximumY, size, tries, BlockMatcher.forBlock(Blocks.STONE), drop);
-	}
-	
-	/**
-	 * 
-	 * @param name Unlocalized and registry names
-	 * @param material Block material
-	 * @param hardsistance Block resistance+hardness
-	 * @param dimensionType Dimension where the ore will be generated
-	 * @param minimumY Minimum Y level for ore generation
-	 * @param maximumY Maximum Y level for ore generation
-	 * @param size Size of the clumps
-	 * @param tries Number of generation attempts
-	 */
-	public OreBlock(String name, Material material, float hardsistance, DimensionType dimensionType, int minimumY, int maximumY, int size, int tries)
-	{
-		this(name, material, hardsistance, hardsistance, dimensionType, minimumY, maximumY, size, tries);
 	}
 
 	public DimensionType getDimension()

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+         "#",
+         "#",
+         "D"
+    ],
+    "key": {
+        "#": {
+            "item": "chaosawakens:ultimatium"
+        },
+        
+        "D": {
+            "item": "minecraft:stick"
+        }
+        
+    },
+    "result": {
+        "item": "chaosawakens:ultimate_sword",
+        "count": 1
+    }
+}

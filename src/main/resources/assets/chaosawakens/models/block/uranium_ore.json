@@ -2,6 +2,6 @@
 	"parent": "block/cube_all", 
 	"textures":
 	{
-		"layer0": "chaosawakens:textures/block/uranium_ore"
+		"all": "chaosawakens:block/uranium_ore"
 	}
 }

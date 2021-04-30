@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+         "##",
+         "D ",
+         "D "
+    ],
+    "key": {
+        "#": {
+            "item": "chaosawakens:amethyst"
+        },
+        "D": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "chaosawakens:amethyst_hoe",
+        "count": 1
+    }
+}

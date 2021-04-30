@@ -16,6 +16,6 @@ public class ClientProxy extends CommonProxy
 	@Override
 	public void registerItemVariantRenderer(Item item, int meta, String filename, String id)
 	{
-		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(new ResourceLocation(Reference.MODID, filename), id));
+		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(new ResourceLocation(ChaosAwakens.MODID, filename), id));
 	}
 }

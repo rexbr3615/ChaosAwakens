@@ -1,0 +1,29 @@
+{
+	"variants":
+	{
+		"normal":
+		{ 
+			"model": "chaosawakens:druid_bark_stairs"
+		},
+		"facing=west":
+		{ 
+			"model": "chaosawakens:druid_bark_stairs",
+			"y": 270
+		},
+		"facing=east":
+		{ 
+			"model": "chaosawakens:druid_bark_stairs",
+			"y": 90
+		},
+		"facing=north":
+		{ 
+			"model": "chaosawakens:druid_bark_stairs",
+			"y": 0
+		},
+		"facing=south":
+		{ 
+			"model": "chaosawakens:druid_bark_stairs",
+			"y": 180
+		}
+	}
+}

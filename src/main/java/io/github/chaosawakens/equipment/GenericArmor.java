@@ -1,6 +1,7 @@
 package io.github.chaosawakens.equipment;
 
-import io.github.chaosawakens.ModItems;
+import io.github.chaosawakens.registry.ModCreativeTabs;
+import io.github.chaosawakens.registry.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
@@ -29,7 +30,7 @@ public class GenericArmor extends ItemArmor
 		armourName = name;
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(ModCreativeTabs.EQUIPMENT);
 		
 		ModItems.ITEMS.add(this);
 	}

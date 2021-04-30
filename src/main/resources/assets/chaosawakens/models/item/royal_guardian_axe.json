@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld", 
+	"textures":
+	{
+		"layer0": "chaosawakens:item/royal_guardian_axe"
+	}
+}

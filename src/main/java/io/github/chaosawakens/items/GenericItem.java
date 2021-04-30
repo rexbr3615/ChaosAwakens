@@ -1,6 +1,7 @@
 package io.github.chaosawakens.items;
 
-import io.github.chaosawakens.ModItems;
+import io.github.chaosawakens.registry.ModCreativeTabs;
+import io.github.chaosawakens.registry.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
@@ -45,7 +46,7 @@ public class GenericItem extends Item {
 	 */
 	public GenericItem(String name, int maxStackSize)
 	{
-		this(name, CreativeTabs.MISC, maxStackSize);
+		this(name, ModCreativeTabs.ITEMS, maxStackSize);
 	}
 	/**
 	 * Tab defaults to CreativeTabs.MISC and item max stack to 64
@@ -53,6 +54,6 @@ public class GenericItem extends Item {
 	 */
 	public GenericItem(String name)
 	{
-		this(name, CreativeTabs.MISC, 64);
+		this(name, ModCreativeTabs.ITEMS, 64);
 	}
 }

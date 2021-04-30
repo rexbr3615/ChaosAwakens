@@ -2,6 +2,6 @@
 	"parent": "block/cube_all", 
 	"textures":
 	{
-		"layer0": "chaosawakens:blocks/amethyst_block"
+		"all": "chaosawakens:block/amethyst_block"
 	}
 }

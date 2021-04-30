@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "#",
+        "D"
+    ],
+    "key": {
+        "#": {
+            "item": "chaosawakens:ruby"
+        },
+        "D": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "chaosawakens:ruby_sword",
+        "count": 1
+    }
+}
+ 

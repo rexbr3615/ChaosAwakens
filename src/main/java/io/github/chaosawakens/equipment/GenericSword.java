@@ -1,6 +1,7 @@
 package io.github.chaosawakens.equipment;
 
-import io.github.chaosawakens.ModItems;
+import io.github.chaosawakens.registry.ModCreativeTabs;
+import io.github.chaosawakens.registry.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSword;
 
@@ -21,7 +22,7 @@ public class GenericSword extends ItemSword
 		
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.COMBAT);
+		setCreativeTab(ModCreativeTabs.EQUIPMENT);
 		
 		ModItems.ITEMS.add(this);
 	}	

@@ -1,5 +1,7 @@
 package io.github.chaosawakens;
 
+import io.github.chaosawakens.registry.ModBlocks;
+import io.github.chaosawakens.registry.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;

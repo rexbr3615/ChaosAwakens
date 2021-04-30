@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+       "# #",
+       "###",
+       "###"
+    ],
+    "key": {
+        "#": {
+            "item": "chaosawakens:amethyst"
+        }
+    },
+    "result": {
+        "item": "chaosawakens:amethyst_chestplate",
+        "count": 1
+    }
+}
+ 
